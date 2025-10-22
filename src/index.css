@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #007bff;
+  --primary-hover: #0056b3;
+  --text-color: #333;
+  --bg-color: #f5f7fa;
+  --error-color: #d9534f;
+  --success-color: #28a745;
+  --border-radius: 8px;
+
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+h1 {
+  color: var(--text-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
